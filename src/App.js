@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>React Weather App</p>
+        <h1>React Weather App</h1>
+        <p>I will be importing weather app made in Vanilla JS into React. </p>
       </header>
     </div>
   );
