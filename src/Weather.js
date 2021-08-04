@@ -110,7 +110,7 @@ export default function Weather() {
           </a>
           and
           <a
-            href="https://dreamy-brahmagupta-dbdebb.netlify.app"
+            href="https://happy-albattani-ea9840.netlify.app/"
             target="_blank"
             rel="noreferrer"
             className="netlify"
