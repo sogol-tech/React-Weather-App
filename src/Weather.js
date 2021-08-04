@@ -2,13 +2,25 @@ import React from "react";
 import "./Weather.css";
 
 export default function Weather() {
+  let weatherData = {
+    dt: "Wednesday 12:43",
+    city: "London",
+    temperature: "20",
+    description: "Partly cloudy",
+    min: "14",
+    max: "20",
+    humidity: "58",
+    wind: "5",
+    icon: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
+  };
+
   return (
     <div className="Weather">
       <div className="weather-app-wrapper">
         <div className="row">
           <div className="col-4">
             <div className="current-time">
-              <small>Wednesday 12:27</small>
+              <small>{weatherData.dt}</small>
             </div>
           </div>
           <div className="col-4">
@@ -32,10 +44,10 @@ export default function Weather() {
 
         <div className="image-container position-relative">
           <div className="position-absolute temperature-container">
-            <strong className="temperature">20°</strong>
+            <strong className="temperature">{weatherData.temperature}°</strong>
           </div>
           <img
-            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+            src={weatherData.icon}
             className="rounded mx-auto d-block"
             alt="Partly cloudy"
             width="200"
@@ -56,26 +68,57 @@ export default function Weather() {
           </div>
         </div>
 
-        <h1 className="city">London</h1>
-        <p className="des">Partly cloudy</p>
+        <h1 className="city">{weatherData.city}</h1>
+        <p className="des">{weatherData.description}</p>
 
         <div className="row weather-info">
           <div className="col-6">
-            Min: <span>14</span>°C
+            Min: <span>{weatherData.min}</span>°C
           </div>
           <div className="col-6">
-            Max: <span>20</span>°C
+            Max: <span>{weatherData.max}</span>°C
           </div>
           <div className="col-6">
-            Humidity: <span>58</span>%
+            Humidity: <span>{weatherData.humidity}</span>%
           </div>
           <div className="col-6">
-            Wind: <span>4</span> km/h
+            Wind: <span>{weatherData.wind}</span> km/h
           </div>
         </div>
         <hr />
         <div className="weather-forecast"></div>
       </div>
+      <footer class="source-link">
+        <small>
+          This project was coded by
+          <a
+            href="https://github.com/sogol-tech"
+            target="_blank"
+            rel="noreferrer"
+            className="name"
+          >
+            Sogol Afshar
+          </a>
+          and is
+          <a
+            href="https://github.com/sogol-tech/Vanilla-Weather-App"
+            target="_blank"
+            rel="noreferrer"
+            className="github"
+          >
+            open-sourced on GitHub
+          </a>
+          and
+          <a
+            href="https://festive-bardeen-45393f.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="netlify"
+          >
+            hosted on Netlify.
+          </a>
+        </small>
+      </footer>
     </div>
   );
 }

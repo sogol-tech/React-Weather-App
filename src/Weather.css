@@ -112,3 +112,6 @@ footer {
 .forecast-temperature-min {
   color: #808588;
 }
+.source-link {
+  font-size: 12px;
+}
