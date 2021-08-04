@@ -101,7 +101,7 @@ export default function Weather() {
           </a>
           and is
           <a
-            href="https://github.com/sogol-tech/Vanilla-Weather-App"
+            href="https://github.com/sogol-tech/React-Weather-App.git"
             target="_blank"
             rel="noreferrer"
             className="github"
@@ -110,7 +110,7 @@ export default function Weather() {
           </a>
           and
           <a
-            href="https://festive-bardeen-45393f.netlify.app/"
+            href="https://dreamy-brahmagupta-dbdebb.netlify.app"
             target="_blank"
             rel="noreferrer"
             className="netlify"
