@@ -30,7 +30,7 @@ export default function Weather() {
                   type="search"
                   placeholder="Search city..."
                   className="form-control-sm mb-3"
-                  autocomplete="off"
+                  autoComplete="off"
                 />
               </form>
             </span>
