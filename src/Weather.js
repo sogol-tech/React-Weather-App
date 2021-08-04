@@ -8,7 +8,7 @@ export default function Weather() {
         <div className="row">
           <div className="col-4">
             <div className="current-time">
-              <small>Wed 4 Aug</small>
+              <small>Wednesday 12:27</small>
             </div>
           </div>
           <div className="col-4">
@@ -25,14 +25,14 @@ export default function Weather() {
           </div>
           <div className="col-4">
             <button type="button" className="button">
-              <i className="fas fa-map-marker-alt"></i>
+              Search
             </button>
           </div>
         </div>
 
         <div className="image-container position-relative">
           <div className="position-absolute temperature-container">
-            <strong className="temperature font-colour">20°</strong>
+            <strong className="temperature">20°</strong>
           </div>
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
@@ -57,20 +57,20 @@ export default function Weather() {
         </div>
 
         <h1 className="city">London</h1>
-        <p className="des">Clear sky</p>
+        <p className="des">Partly cloudy</p>
 
         <div className="row weather-info">
           <div className="col-6">
-            Min: <span></span>°C
+            Min: <span>14</span>°C
           </div>
           <div className="col-6">
-            Max: <span></span>°C
+            Max: <span>20</span>°C
           </div>
           <div className="col-6">
-            Humidity: <span></span>%
+            Humidity: <span>58</span>%
           </div>
           <div className="col-6">
-            Wind: <span></span> km/h
+            Wind: <span>4</span> km/h
           </div>
         </div>
         <hr />
