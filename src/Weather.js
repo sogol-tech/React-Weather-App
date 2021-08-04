@@ -35,10 +35,10 @@ export default function Weather() {
             <strong className="temperature font-colour">20°</strong>
           </div>
           <img
-            src="src/images/01d.png"
+            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
             className="rounded mx-auto d-block"
-            alt="snowy"
-            width="400"
+            alt="Partly cloudy"
+            width="200"
           />
         </div>
 
