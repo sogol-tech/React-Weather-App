@@ -49,7 +49,7 @@ export default function Weather() {
           <img
             src={weatherData.icon}
             className="rounded mx-auto d-block"
-            alt="Partly cloudy"
+            alt={Weather.description}
             width="200"
           />
         </div>

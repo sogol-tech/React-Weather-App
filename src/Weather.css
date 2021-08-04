@@ -31,17 +31,17 @@ footer {
   margin: 20px;
   font-family: "Bai Jamjuree", sans-serif;
 }
-.current-time {
+.Weather .current-time {
   margin-top: 20px;
   font-family: "Bai Jamjuree", sans-serif;
   text-transform: capitalize;
   color: #536162;
 }
-.search {
+.Weather .search {
   margin-left: 20px;
   margin-top: 20px;
 }
-.button {
+.Weather .button {
   font-size: 15px;
   margin-top: 20px;
   margin-left: 50px;
@@ -50,33 +50,33 @@ footer {
   color: #536162;
 }
 
-.temperature {
+.Weather .temperature {
   font-size: 60px;
 }
-.temperature-container {
+.Weather .temperature-container {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
-.city {
+.Weather .city {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0px;
   font-size: 50px;
 }
-.units {
+.Weather .units {
   margin-right: 90px;
   font-family: "Bai Jamjuree", sans-serif;
 }
-.units a {
+.Weather .units a {
   text-decoration: none;
 }
-.far {
+.Weather .far {
   text-decoration: none;
   font-family: "Bai Jamjuree", sans-serif;
 }
-.des {
+.Weather .des {
   text-align: center;
   margin-bottom: 40px;
   color: #536162;
@@ -84,34 +84,34 @@ footer {
   font-size: 15px;
   line-height: 1;
 }
-.des:first-letter {
+.Weather .des:first-letter {
   text-transform: capitalize;
 }
-.weather-info {
+.Weather .weather-info {
   font-family: "Archivo Narrow", sans-serif;
   font-weight: 500;
   text-align: center;
 }
-.active {
+.Weather .active {
   color: black;
   cursor: default;
   text-decoration: none;
 }
-.weather-forecast {
+.Weather .weather-forecast {
   margin-top: 20px;
   text-align: center;
   font-family: "Archivo Narrow", sans-serif;
 }
-.forecast-days {
+.Weather .forecast-days {
   font-size: 15px;
   color: #808588;
 }
-.forecast-temperature {
+.Weather .forecast-temperature {
   font-size: 18px;
 }
-.forecast-temperature-min {
+.Weather .forecast-temperature-min {
   color: #808588;
 }
-.source-link {
+.Weather .source-link {
   font-size: 12px;
 }
