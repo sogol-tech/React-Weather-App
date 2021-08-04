@@ -1,8 +1,9 @@
 import React from "react";
+import "./Weather.css";
 
 export default function Weather() {
   return (
-    <div className="weather-app">
+    <div className="Weather">
       <div className="weather-app-wrapper">
         <div className="row">
           <div className="col-4">
