@@ -8,24 +8,23 @@ export default function Weather() {
         <div className="row">
           <div className="col-4">
             <div className="current-time">
-              <small id="dt"></small>
+              <small>Wed 4 Aug</small>
             </div>
           </div>
           <div className="col-4">
             <span className="float-right">
-              <form className="search" id="searchCity">
+              <form className="search">
                 <input
                   type="search"
                   placeholder="Search city..."
                   className="form-control-sm mb-3"
-                  id="city-input"
                   autocomplete="off"
                 />
               </form>
             </span>
           </div>
           <div className="col-4">
-            <button type="button" className="button" id="currentLocationButton">
+            <button type="button" className="button">
               <i className="fas fa-map-marker-alt"></i>
             </button>
           </div>
@@ -33,15 +32,11 @@ export default function Weather() {
 
         <div className="image-container position-relative">
           <div className="position-absolute temperature-container">
-            <strong
-              className="temperature font-colour"
-              id="temperature"
-            ></strong>
+            <strong className="temperature font-colour">20°</strong>
           </div>
           <img
-            src="src/images/DAY/1.Clear-sky.jpg"
+            src="src/images/01d.png"
             className="rounded mx-auto d-block"
-            id="img"
             alt="snowy"
             width="400"
           />
@@ -50,36 +45,36 @@ export default function Weather() {
         <div className="row">
           <div className="text-end">
             <small className="units">
-              <a href="/" id="celsius" className="active">
+              <a href="/" className="active">
                 C
               </a>{" "}
               |
-              <a href="/" className="far" id="fahrenheit">
+              <a href="/" className="far">
                 F
               </a>
             </small>
           </div>
         </div>
 
-        <h1 className="city" id="city"></h1>
-        <p className="des" id="description"></p>
+        <h1 className="city">London</h1>
+        <p className="des">Clear sky</p>
 
         <div className="row weather-info">
           <div className="col-6">
-            Min: <span id="minTemp"></span>°C
+            Min: <span></span>°C
           </div>
           <div className="col-6">
-            Max: <span id="maxTemp"></span>°C
+            Max: <span></span>°C
           </div>
           <div className="col-6">
-            Humidity: <span id="humidity"></span>%
+            Humidity: <span></span>%
           </div>
           <div className="col-6">
-            Wind: <span id="wind"></span> km/h
+            Wind: <span></span> km/h
           </div>
         </div>
         <hr />
-        <div className="weather-forecast" id="forecast"></div>
+        <div className="weather-forecast"></div>
       </div>
     </div>
   );
